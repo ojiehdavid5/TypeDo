@@ -38,8 +38,9 @@ const Todolist = () => {
     <div>
       <h1 className="text-5xl font-bold">Todolist</h1>
       <input
-        type="text"
-        className="border-2 border-purple-300 rounded-md p-2 mt-4 w-[50rem]"
+              type="text"
+              
+        className="border-2 border-purple-300 rounded-md p-2 mt-4 w-full"
         placeholder="Search for a task"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
