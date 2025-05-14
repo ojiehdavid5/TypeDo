@@ -57,7 +57,7 @@ const Todolist = () => {
               .map((todo) => (
                 <div
                   key={todo.id}
-                  className="bg-purple-200 w-full h-[5rem] rounded-md flex items-center justify-between p-4 mb-2"
+                  className="bg-purple-200 w-[20rem] sm:w-[50rem] h-[5rem] rounded-md flex items-center justify-between p-4 mb-2"
                 >
                   <p className="text-lg">{todo.text}</p>
                   <button
