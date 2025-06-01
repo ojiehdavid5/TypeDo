@@ -36,7 +36,7 @@ const Todolist = () => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold">Todolist</h1>
+      <h1 className="text-5xl font-bold">Todolist by chuks</h1>
       <input
               type="text"
               
